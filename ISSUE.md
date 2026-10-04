@@ -43,6 +43,9 @@ Temurin 25.0.4+7 (stock OpenJDK, interpreter-only runtime)
 
 ### Steps to reproduce
 
+Standalone reproducer, Gradle wrapper included: https://github.com/BigMichi1/graalpy-reraise-stacktrace
+(`./gradlew -q run -Pea`; the README lists the other modes and the version sweep).
+
 Run this Java program with `-ea` on a stock JDK 25 (Temurin 25.0.4), with
 `org.graalvm.polyglot:polyglot` and `org.graalvm.polyglot:python-community`:
 
