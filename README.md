@@ -10,7 +10,7 @@ does not get the exception it expects:
 - **Without assertions, the stack trace is wrong.** The frame of the `exec`'d code is missing, and the
   handler frame has no source location, so the failing line of user code cannot be reported.
 
-`ISSUE.md` is the full report, in the layout of oracle/graalpython's bug template.
+`ISSUE.md` is the full report, filed upstream as [oracle/graalpython#1186](https://github.com/oracle/graalpython/issues/1186).
 
 ## Run
 
