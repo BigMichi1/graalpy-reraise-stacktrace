@@ -55,3 +55,7 @@ with_except:
 
 Keep exception handlers out of the Python frame that executes user code. Do cleanup, such as
 flushing `sys.stdout`, in a separate call from the host after the user code returns or fails.
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE).
